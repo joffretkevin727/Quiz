@@ -1,5 +1,5 @@
-Package main
+package quiz
 
-function main() {
+func main() {
 
 }

@@ -1,6 +1,5 @@
 package quiz
 
-function quiziadata() {
-
+func quiziadata() {
 
 }

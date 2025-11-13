@@ -1,6 +1,5 @@
 package quiz
 
-function quizcyber() {
-
+func quizcyber() {
 
 }
