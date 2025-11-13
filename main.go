@@ -1,5 +1,7 @@
 package quiz
 
-func main() {
+var IsQuizzOver = false
 
+func main() {
+	Quizmenu()
 }

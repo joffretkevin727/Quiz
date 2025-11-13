@@ -1,5 +1,5 @@
 package quiz
 
-func quiziadata() {
+func Quiziadata() {
 
 }
