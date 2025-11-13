@@ -1,5 +1,7 @@
 Package main
 
-function main() {
+import "quiz"
 
+function main() {
+   quiz.ShowMenu()
 }
