@@ -1,0 +1,5 @@
+Package main
+
+function main() {
+
+}
