@@ -1,5 +1,5 @@
 package main
 
-func quizcyber() {
+func Quizcyber() {
 
 }
