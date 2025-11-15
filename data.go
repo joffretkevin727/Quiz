@@ -1,4 +1,4 @@
-package quiz
+package main
 
 // nombre de réponses juste
 var User_score int = 0

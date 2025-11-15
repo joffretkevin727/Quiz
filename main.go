@@ -1,7 +1,8 @@
-package quiz
+package main
 
 var IsQuizzOver = false
 
+// fonction principale
 func main() {
-	Quizmenu()
+	ShowMenu()
 }

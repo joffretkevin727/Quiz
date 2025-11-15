@@ -1,10 +1,10 @@
-package quiz
+package main
 
 import "fmt"
 
 func Quizmenu() {
-	fmt.Println("Bienvenue sur le quiz")
 
+	fmt.Println("Bienvenue sur le quiz")
 	fmt.Println("Bienvenue sur le quizz informatique")
 	fmt.Println("Choisissez le theme")
 	fmt.Print("1. Informatique\n2. Cybersecurite\n3. IAData\n")
