@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Quizmenu() {
+func ShowMenu() {
 
 	fmt.Println("Bienvenue sur le quiz")
 	fmt.Println("Bienvenue sur le quizz informatique")
