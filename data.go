@@ -7,8 +7,14 @@ var User_score int = 0
 var Theme = map[int]string{
 	1: "Informatique",
 	2: "Cybersecurite",
-	3: "Data",
+	3: "IA",
 }
 
-// enregistrer le choix du theme ici
+// enregistrer les choix de l'user ici
 var Choice int
+
+//enregistrer les réponses choisies
+var User_answers []int
+
+//les bonnes réponses
+var Good_answers = [10]int{2, 3, 3, 3}

@@ -5,8 +5,7 @@ import "fmt"
 func ShowMenu() {
 
 	fmt.Println("Bienvenue sur le quiz")
-	fmt.Println("Bienvenue sur le quizz informatique")
-	fmt.Println("Choisissez le theme")
+	fmt.Println("Choisissez le theme du quiz")
 	fmt.Print("1. Informatique\n2. Cybersecurite\n3. IAData\n")
 
 	for !IsQuizzOver {
