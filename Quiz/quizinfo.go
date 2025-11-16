@@ -61,4 +61,6 @@ func checkAnswer() {
 	}
 
 	fmt.Println("Vous avez ", User_score, " réponses juste")
+
+	fmt.Println(User_level[User_score])
 }

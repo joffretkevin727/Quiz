@@ -24,3 +24,16 @@ var Blue = "\033[34m"
 var White = "\033[0m"
 var Yellow = "\033[33m"
 var Red = "\033[31m"
+
+var User_level = map[int]string{
+	1:  "Nobody",
+	2:  "Novice",
+	3:  "Debutant",
+	4:  "Apprenti",
+	5:  "Aspirant",
+	6:  "Confirme",
+	7:  "Nobody",
+	8:  "Aficionados",
+	9:  "Pro",
+	10: "Expert",
+}
