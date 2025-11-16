@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func Quiziadata() {
+	//les questions
 	fmt.Println("Quel est l'objectif principal de l'Intelligence Artificielle (IA) en tant que domaine d'étude ?")
 	answers("Créer des robots physiques capables de remplacer l'homme.", "Développer des systèmes informatiques capables de simuler l'intelligence humaine pour effectuer des tâches.", "Programmer des ordinateurs pour effectuer uniquement des tâches répétitives et simples.")
 
@@ -33,4 +34,15 @@ func Quiziadata() {
 	fmt.Println("Quel est le rôle crucial des données d'entraînement ('training data') pour un modèle de Machine Learning ?")
 	answers("Elles fournissent l'expérience à partir de laquelle le modèle ajuste ses paramètres internes pour devenir plus précis.", "Elles servent uniquement à valider la vitesse d'exécution du modèle, et non sa précision.", "Elles sont principalement utilisées pour stocker le modèle après son entraînement.")
 
+	checkAnswerIadata()
+}
+func checkAnswerIadata() {
+	for i := range User_answers {
+		if User_answers[i] == Good_answers_iadata[i] {
+			User_score++
+		}
+	}
+	fmt.Println("Vous avez ", User_score, " réponses juste")
+
+	fmt.Println(User_level[User_score])
 }
