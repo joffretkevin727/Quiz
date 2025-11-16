@@ -6,8 +6,8 @@ var User_score int = 0
 // Associe le choix de l'user en int en un string
 var Theme = map[int]string{
 	1: "Informatique",
-	2: "Cybersecurite",
-	3: "IA",
+	2: "Cybersécurité",
+	3: "IA & Data",
 }
 
 // enregistrer les choix de l'user ici
@@ -17,7 +17,9 @@ var Choice int
 var User_answers []int
 
 //les bonnes réponses
-var Good_answers_informatique = [10]int{2, 3, 1, 1, 2, 1, 2, 1, 1, 3}
+
+var Good_answers_info = [10]int{2, 3, 1, 1, 2, 1, 2, 1, 1, 3}
+var Good_answers_iadata = [10]int{2, 3, 1, 3, 2, 3, 1, 1, 2, 1}
 
 //Codes ANSI couleurs
 var Blue = "\033[34m"
@@ -31,7 +33,7 @@ var User_level = map[int]string{
 	3:  "Debutant",
 	4:  "Apprenti",
 	5:  "Aspirant",
-	6:  "Confirme",
+	6:  "Confirmé",
 	7:  "Nobody",
 	8:  "Aficionados",
 	9:  "Pro",

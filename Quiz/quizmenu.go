@@ -3,12 +3,13 @@ package main
 import "fmt"
 
 func ShowMenu() {
+	fmt.Println("\n====================================================")
+	fmt.Println("                Bienvenue sur le quiz !               ")
+	fmt.Println("             Choisissez le theme du quiz :            ")
+	fmt.Print("     1. Informatique\n2. Cybersécurité\n3. IA & Data\n  ")
+	fmt.Println("\n====================================================")
 
-	fmt.Println("Bienvenue sur le quiz")
-	fmt.Println("Choisissez le theme du quiz")
-	fmt.Print("1. Informatique\n2. Cybersecurite\n3. IAData\n")
-
-	for !IsQuizzOver {
+	for !IsQuizOver {
 
 		fmt.Scan(&Choice)
 
@@ -23,9 +24,9 @@ func ShowMenu() {
 		case 1:
 			Quizinfo()
 		case 2:
-			Quiziadata()
-		case 3:
 			Quizcyber()
+		case 3:
+			Quiziadata()
 		}
 
 	}

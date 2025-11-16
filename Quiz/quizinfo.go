@@ -29,7 +29,8 @@ func limitChoice() {
 
 func checkAnswer() {
 	for i := range User_answers {
-		if User_answers[i] == Good_answers_informatique[i] {
+		if User_answers[i] == Good_answers_info[i] {
+
 			User_score++
 		}
 	}
