@@ -6,13 +6,13 @@ func Quizinfo() {
 
 	for i := range Questions_informatique {
 		fmt.Println(Questions_informatique[i].Question)
-		Answers(Questions_informatique[i].Choice1, Questions_informatique[i].Choice2, Questions_informatique[i].Choice3)
+		answers(Questions_informatique[i].Choice1, Questions_informatique[i].Choice2, Questions_informatique[i].Choice3)
 	}
 
 	checkAnswer()
 }
 
-func Answers(s string, d string, p string) {
+func answers(s string, d string, p string) {
 	fmt.Print("1. ", s, "\n2. ", d, "\n3. ", p, "\n")
 	limitChoice()
 }
