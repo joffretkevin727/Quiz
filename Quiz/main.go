@@ -1,6 +1,6 @@
 package main
 
-var IsQuizzOver = false
+var IsQuizOver = false
 
 // fonction principale
 func main() {

@@ -6,8 +6,8 @@ var User_score int = 0
 // Associe le choix de l'user en int en un string
 var Theme = map[int]string{
 	1: "Informatique",
-	2: "Cybersecurite",
-	3: "IA",
+	2: "Cybersécurité",
+	3: "IA & Data",
 }
 
 // enregistrer les choix de l'user ici
@@ -32,7 +32,7 @@ var User_level = map[int]string{
 	3:  "Debutant",
 	4:  "Apprenti",
 	5:  "Aspirant",
-	6:  "Confirme",
+	6:  "Confirmé",
 	7:  "Nobody",
 	8:  "Aficionados",
 	9:  "Pro",
