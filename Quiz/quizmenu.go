@@ -23,9 +23,9 @@ func ShowMenu() {
 		case 1:
 			Quizinfo()
 		case 2:
-			Quiziadata()
-		case 3:
 			Quizcyber()
+		case 3:
+			Quiziadata()
 		}
 
 	}
