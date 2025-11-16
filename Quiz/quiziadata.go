@@ -3,6 +3,13 @@ package main
 import "fmt"
 
 func Quiziadata() {
+
+	fmt.Println("\n==============================================")
+	fmt.Println("         🧠 QUIZ : INTRODUCTION À L'IA        ")
+	fmt.Print("==============================================\n")
+	fmt.Println("  Veuillez sélectionner 1, 2 ou 3 pour chaque question.")
+	fmt.Print("==============================================\n")
+
 	//les questions
 	fmt.Println("Quel est l'objectif principal de l'Intelligence Artificielle (IA) en tant que domaine d'étude ?")
 	answers("Créer des robots physiques capables de remplacer l'homme.", "Développer des systèmes informatiques capables de simuler l'intelligence humaine pour effectuer des tâches.", "Programmer des ordinateurs pour effectuer uniquement des tâches répétitives et simples.")
@@ -42,7 +49,9 @@ func checkAnswerIadata() {
 			User_score++
 		}
 	}
-	fmt.Println("Vous avez ", User_score, " réponses juste")
+	fmt.Println("\n================================================")
+	fmt.Print("   🎉 RÉSULTAT FINAL : ", User_score, " réponses justes sur 10\n")
+	fmt.Println("Vous etes  un ", User_level[User_score])
+	fmt.Println("==================================================")
 
-	fmt.Println(User_level[User_score])
 }
