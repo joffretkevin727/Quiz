@@ -4,41 +4,15 @@ import "fmt"
 
 func Quizinfo() {
 
-	fmt.Println("Quel est le type d'une variable qui doit contenir des numeros")
-	answers("var", "int", "string")
-
-	fmt.Println("Comment declare t-on une fonction en go ?")
-	answers("function", "fun", "func")
-
-	fmt.Println("Quelle est la sortie de code Go ?")
-	fmt.Print(Blue, "func", Yellow, " main() {\n", White, "	x := 5\n	fmt.Println(&x)\n}\n")
-	answers("L'addresse mémoire de x", "La valeur 5", "une erreur")
-
-	fmt.Println("Quel package utilise t-on pour travailler avec le temps ?")
-	answers("time", "datetime", "clock")
-
-	fmt.Println("Comment déclare-t-on une slice vide en Go ?")
-	answers("var s []int", "s := []int{}", "var s [0]int")
-
-	fmt.Println("Quel mot-clé permet de lancer une goroutine ?")
-	answers("go", "routine", "goroutine")
-
-	fmt.Println("Que fait le mot-clé defer ?")
-	answers("Exécute la fonction immédiatement", "Exécute la fonction à la fin de la fonction englobante", "Déclare une variable globale")
-
-	fmt.Println("Comment lit-on sur un channel ch ?")
-	answers("<-ch", "ch <- value", "ch.read()")
-
-	fmt.Println("Quelle est la différence entre un tableau et une slice ?")
-	answers("Tableau taille fixe, slice dynamique", "Slice taille fixe, tableau dynamique", "Aucune différence")
-
-	fmt.Println("Comment crée-t-on une map qui associe des chaînes à des entiers en Go ?")
-	answers("myMap := map{}", "myMap := map[int]string{}", "myMap := map[string]int{}")
+	for i := range Questions_informatique {
+		fmt.Println(Questions_informatique[i].Question)
+		Answers(Questions_informatique[i].Choice1, Questions_informatique[i].Choice2, Questions_informatique[i].Choice3)
+	}
 
 	checkAnswer()
 }
 
-func answers(s string, d string, p string) {
+func Answers(s string, d string, p string) {
 	fmt.Print("1. ", s, "\n2. ", d, "\n3. ", p, "\n")
 	limitChoice()
 }
@@ -55,7 +29,7 @@ func limitChoice() {
 
 func checkAnswer() {
 	for i := range User_answers {
-		if User_answers[i] == Good_answers[i] {
+		if User_answers[i] == Good_answers_informatique[i] {
 			User_score++
 		}
 	}
