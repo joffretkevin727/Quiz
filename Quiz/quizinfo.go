@@ -4,7 +4,7 @@ import "fmt"
 
 func Quizinfo() {
 
-	fmt.Println("Quel est le type d'une variable qui doit contenir des numeros")
+	fmt.Println("Quel est le type d'une variable qui doit contenir des numeros ?")
 	answers("var", "int", "string")
 
 	fmt.Println("Comment declare t-on une fonction en go ?")
@@ -20,14 +20,14 @@ func Quizinfo() {
 	fmt.Println("Comment déclare-t-on une slice vide en Go ?")
 	answers("var s []int", "s := []int{}", "var s [0]int")
 
-	fmt.Println("Quel mot-clé permet de lancer une goroutine ?")
-	answers("go", "routine", "goroutine")
+	fmt.Println("Quel mot-clé permet d'afficher du texte en Go ?")
+	answers("fmt.Show()", "fmt.Println()", "print.go()")
 
 	fmt.Println("Que fait le mot-clé defer ?")
 	answers("Exécute la fonction immédiatement", "Exécute la fonction à la fin de la fonction englobante", "Déclare une variable globale")
 
-	fmt.Println("Comment lit-on sur un channel ch ?")
-	answers("<-ch", "ch <- value", "ch.read()")
+	fmt.Println("Comment affiche-t-on la valeur d'une variable en Go ?")
+	answers("console.log(x)", "fmt.Println(x)", "print(x);")
 
 	fmt.Println("Quelle est la différence entre un tableau et une slice ?")
 	answers("Tableau taille fixe, slice dynamique", "Slice taille fixe, tableau dynamique", "Aucune différence")

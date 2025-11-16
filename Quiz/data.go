@@ -17,7 +17,7 @@ var Choice int
 var User_answers []int
 
 //les bonnes réponses
-var Good_answers = [10]int{2, 3, 1, 1, 2, 1, 2, 1, 1, 3}
+var Good_answers = [10]int{2, 3, 1, 1, 2, 2, 2, 1, 1, 3}
 
 //Codes ANSI couleurs
 var Blue = "\033[34m"
