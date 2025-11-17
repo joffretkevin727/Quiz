@@ -1,5 +1,8 @@
-Package main
+package main
 
-function main() {
+var IsQuizOver = false
 
+// fonction principale
+func main() {
+	ShowMenu()
 }
