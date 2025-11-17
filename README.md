@@ -19,8 +19,8 @@ Le quiz se réalise dans le terminal(IDE) de votre choix
    │   ├── quizmenu.go
    │   ├── go.mod
    │   ├── main.go
-   │   ├── data.go
-   │   └── README.md
+   │   └── data.go
+   ├── README.md
    └── .gitignore
     
    ```
