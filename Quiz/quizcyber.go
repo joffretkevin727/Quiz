@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func Quizcyber() {
 	User_answers = []int{}
 	User_score = 0

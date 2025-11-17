@@ -59,8 +59,5 @@ var Questions_informatique = map[int]QA{
 	9:  {"Quelle est la différence entre un tableau et une slice ?", "Tableau taille fixe, slice dynamique", "Slice taille fixe, tableau dynamique", "Aucune différence"},
 	10: {"Comment crée-t-on une map qui associe des chaînes à des entiers en Go ?", "myMap := map{}", "myMap := map[int]string{}", "myMap := map[string]int{}"},
 }
-<<<<<<< HEAD
-=======
 
 var Good_answers_cyber = [10]int{2, 3, 1, 2, 3, 1, 2, 3, 1, 2}
->>>>>>> origin/Cyberbranch
