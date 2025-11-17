@@ -1,6 +1,0 @@
-package quiz
-
-function quizcyber() {
-
-
-}
