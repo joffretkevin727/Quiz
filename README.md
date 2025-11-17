@@ -40,3 +40,6 @@ Le quiz se réalise dans le terminal(IDE) de votre choix
 3. Jouer :
    ```bash
   vous pouvez commencer !
+
+
+   ```
