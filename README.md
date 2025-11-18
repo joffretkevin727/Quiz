@@ -21,6 +21,7 @@ Le quiz se réalise dans le terminal(IDE) de votre choix
    │   ├── main.go
    │   └── data.go
    ├── README.md
+   ├── License.txt
    └── .gitignore
     
    ```
