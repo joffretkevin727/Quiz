@@ -40,3 +40,9 @@ Le quiz se réalise dans le terminal(IDE) de votre choix
 3. Jouer :
    ```bash
     vous pouvez commencer !
+
+---
+
+## 📝 Licence
+Ce projet est sous licence **MIT License**.  
+Vous êtes libre de l'utiliser, le modifier et le distribuer. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
