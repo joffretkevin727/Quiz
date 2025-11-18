@@ -45,4 +45,4 @@ Le quiz se réalise dans le terminal(IDE) de votre choix
 
 ## 📝 Licence
 Ce projet est sous licence **MIT License**.  
-Vous êtes libre de l'utiliser, le modifier et le distribuer. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Vous êtes libre de l'utiliser, le modifier et le distribuer. Voir le fichier [LICENSE](License.txt) pour plus de détails.
